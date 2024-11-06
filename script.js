@@ -1,9 +1,9 @@
         const products = [
             { id: 1, name: "Set de Calzones y Top", price: 3000, category: "ropa", image: "file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Pagina de ventas /images/ropa1.jpg", description: "Set completo de ropa interior." },
             { id: 2, name: "Planta Eléctrica", price: 240000, category: "electrodomesticos", image: "images/planta eléctrica.jpg", description: "1200W" },
-            { id: 3, name: "Cintillos", price: 350, category: "accesorios", image: "file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Pagina de ventas /images/cintillos.jpg", description: "Cintillos bonitos para niña" },
-            { id: 4, name: "Panel Solar", price: 8000, category: "tecnologia", image: "file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Pagina de ventas /images/panel solar.jpg", description: "Panel Solar USB 80W" },
-             { id: 5, name: "Gafas de sol", price: 1500, category: "accesorios", image: "file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Pagina de ventas /images/gaf de sol.jpg", description: "Gafas de sol " },
+            { id: 3, name: "Cintillos", price: 350, category: "accesorios", image: "images/cintillos.jpg", description: "Cintillos bonitos para niña" },
+            { id: 4, name: "Panel Solar", price: 8000, category: "tecnologia", image: "images/panel solar.jpg", description: "Panel Solar USB 80W" },
+             { id: 5, name: "Gafas de sol", price: 1500, category: "accesorios", image: "images/gaf de sol.jpg", description: "Gafas de sol " },
              { id: 6, name: "Funda para móvil", price: 1000, category: "accesorios", image: "file:///https://github.com/Retr0G51/Retr0G51.github.io/blob/9230edc74e4cf924f542b2b867a5840c0e15ae01/Funda%20movil2.jpg", description: "Para iPhone 11 Pro ?Max" }
              
         ];
