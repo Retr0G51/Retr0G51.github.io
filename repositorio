@@ -1,1 +1,8 @@
 git clone https://github.com/ nombredeusuario / Retr0G51.github.io
+cd nombre de usuario .github.io
+ echo "Hola mundo" > index.html
+git add --all
+
+ git commit -m "Confirmación inicial"
+
+ git push -u origen principal
