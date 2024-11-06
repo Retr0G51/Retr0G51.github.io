@@ -1,5 +1,5 @@
         const products = [
-            { id: 1, name: "Set de Calzones y Top", price: 3000, category: "ropa", image: "images/ropa1.jpg", description: "Set completo de ropa interior." },
+            { id: 1, name: "Set de Calzones y Top", price: 3000, category: "ropa", image: "images/ropa1.jpg", description: "Set completo de ropa interior" },
             { id: 2, name: "Planta Eléctrica", price: 240000, category: "electrodomesticos", image: "images/planta eléctrica.jpg", description: "1200W" },
             { id: 3, name: "Cintillos", price: 350, category: "accesorios", image: "images/cintillos.jpg", description: "Cintillos bonitos para niña" },
             { id: 4, name: "Panel Solar", price: 8000, category: "tecnologia", image: "images/panel solar.jpg", description: "Panel Solar USB 80W" },
