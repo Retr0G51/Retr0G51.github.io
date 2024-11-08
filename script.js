@@ -1,5 +1,5 @@
         const products = [
-            { id: 1, name: "Smart TV UHD 4K Marca SANSUI 65", price: 640, category: "electrodomesticos", image: "", description: "✓ Factura Impresa y Garantía: 1M
+            { id: 1, name: "Smart TV UHD 4K Marca SANSUI 65", price: 640, category: "electrodomesticos", image: "images/IMG-20241106-WA0063.jpg", description: "✓ Factura Impresa y Garantía: 1M
 
 Transporte Incluido.
 
