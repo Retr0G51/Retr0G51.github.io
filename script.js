@@ -1,10 +1,10 @@
         const products = [
-            { id: 1, name: "Smart TV UHD 4K Marca SANSUI 65", price: 640, category: "electrodomesticos", image: "images/IMG-20241106-WA0063.jpg", description: "Factura Impresa y Garantía: 1 mes. Transporte Incluido." },
-            { id: 2, name: "Planta Eléctrica", price: 240000, category: "electrodomesticos", image: "images/planta eléctrica.jpg", description: "1200W" },
-            { id: 3, name: "Cintillos", price: 350, category: "accesorios", image: "images/cintillos.jpg", description: "Cintillos bonitos para niña" },
-            { id: 4, name: "Panel Solar", price: 8000, category: "tecnologia", image: "images/panel solar.jpg", description: "Panel Solar USB 80W" },
-             { id: 5, name: "Gafas de sol", price: 1500, category: "accesorios", image: "images/gaf de sol.jpg", description: "Gafas de sol " },
-             { id: 6, name: "Funda para móvil", price: 1000, category: "accesorios", image: "images/Funda movil2.jpg", description: "Para iPhone 11 Pro ?Max" }
+            { id: 1, name: "Smart TV UHD 4K Marca SANSUI 65", price: 640, category: "electrodomesticos", image: "images/IMG-20241106-WA0063.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido." },
+            { id: 2, name: "Smart TV 4K Marca ONN 65", price: 650, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" },
+            { id: 3, name: "", price: 350, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido"" },
+            { id: 4, name: "", price: 8000, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" },
+             { id: 5, name: "", price: 1500, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" },
+             { id: 6, name: "", price: 1000, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
              
         ];
 
