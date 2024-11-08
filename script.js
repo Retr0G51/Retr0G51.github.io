@@ -1,9 +1,5 @@
         const products = [
-            { id: 1, name: "Smart TV UHD 4K Marca SANSUI 65", price: 640, category: "electrodomesticos", image: "images/IMG-20241106-WA0063.jpg", description: "✓ Factura Impresa y Garantía: 1M
-
-Transporte Incluido.
-
-Precio Con Cajita Externa: 670" },
+            { id: 1, name: "Smart TV UHD 4K Marca SANSUI 65", price: 640, category: "electrodomesticos", image: "images/IMG-20241106-WA0063.jpg", description: "Factura Impresa y Garantía: 1 mes. Transporte Incluido." },
             { id: 2, name: "Planta Eléctrica", price: 240000, category: "electrodomesticos", image: "images/planta eléctrica.jpg", description: "1200W" },
             { id: 3, name: "Cintillos", price: 350, category: "accesorios", image: "images/cintillos.jpg", description: "Cintillos bonitos para niña" },
             { id: 4, name: "Panel Solar", price: 8000, category: "tecnologia", image: "images/panel solar.jpg", description: "Panel Solar USB 80W" },
