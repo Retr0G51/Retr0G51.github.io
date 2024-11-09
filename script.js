@@ -9,7 +9,13 @@
              { id: 8, name: "Smart TV Milexus 50", price: 450, category: "electrodomestico", image: "images/85634ced-c3d4-4452-95d1-bdf12ef02570.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
              { id: 9, name: "Smart TV ROYAL 43 ", price: 365, category: "electrodomestico", image: "images/30db0ce4-b5ce-4035-83a2-9313efd6d511.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
              { id: 10, name: "Smart TV Marca TCL FHD TCL 43", price: 370, category: "electrodomestico", image: "images/b1e00a04-fa3a-4c4b-98b6-e8f0f3c4ff52.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
-
+             { id: 11, name: "Smart Tv Emerald 43", price: 360, category: "electrodomestico", image: "images/c249154f-d68c-4b98-96e9-17ad5265c37e.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             { id: 12, name: "Smart TV Premier 43", price: 365, category: "electrodomestico", image: "images/92d1a59b-5f65-43fd-8290-d5f6c063dad6.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             { id: 13, name: "Smart TV MILEXUS de 42", price: 360, category: "electrodomestico", image: "images/bafe4373-3991-437d-a2cd-311eceeca148.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             { id: 14, name: "Smart Tv Philips 40", price: 370, category: "electrodomestico", image: "images/7ae5f265-5c10-4964-a87e-e62473edab03.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             { id: 15, name: "Smart TV Premier 32", price: 250, category: "electrodomestico", image: "images/00b83b9b-8aeb-4a88-8eb2-d2237465acae.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             { id: 16, name: "Smart TV  HD Insignia 32", price: 250, category: "electrodomestico", image: "images/34b033b8-7c49-4a58-a1e2-589a9747bb5d.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             
              
         ];
 
