@@ -31,7 +31,7 @@
              { id: 30, name: "Refrigerador PREMIER de 10.7 pies", price: 630, category: "electrodomestico", image: "images/f83bdda6-babb-4c33-afb6-338379ef3641.jpg", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido" }
              { id: 31, name: "Refrigerador EKO 11.5 Pies", price: 700, category: "electrodomestico", image: "images/236e5836-ee05-45f6-9ebf-145b9fd80c17.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido -Con dispensador" }
              { id: 32, name: "Refrigerador Milexus 11.5 Pies", price: 780, category: "electrodomestico", image: "images/90ad8661-79ce-4092-868e-b017b9309339.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
-             { id: 33, name: "Refrigerador ROYAL 11.3 pies ", price: 770, category: "electrodomestico", image: "images/ae0a21d9-d6d7-4bea-a05a-ae330c5dd8de.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
+             { id: 33, name: "Refrigerador ROYAL 11.3 pies ", price: 770, category: "electrodomestico", image: "images/ae0a21d9-d6d7-4bea-a05a-ae330c5dd8de.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
         ];
 
         let cart = [];
