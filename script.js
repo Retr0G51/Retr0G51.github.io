@@ -206,4 +206,21 @@
 
         displayProducts();
         showProducts();
+// Función para abrir el modal
+function abrirModal() {
+    document.getElementById("ofertas-modal").style.display = "block";
+}
+
+// Función para cerrar el modal
+function cerrarModal() {
+    document.getElementById("ofertas-modal").style.display = "none";
+}
+
+// Cierra el modal si el usuario hace clic fuera del contenido del modal
+window.onclick = function(event) {
+    const modal = document.getElementById("ofertas-modal");
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+};
     
