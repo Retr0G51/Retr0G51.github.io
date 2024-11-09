@@ -15,10 +15,10 @@
              { id: 14, name: "Smart Tv Philips 40", price: 370, category: "electrodomestico", image: "images/7ae5f265-5c10-4964-a87e-e62473edab03.jpg", description: "-Factura Impresa y Garantía: 15 días -Transporte Incluido -3 puertos HDMI, 1 puerto USB y entrada analogica" }
              { id: 15, name: "Smart TV Premier 32", price: 250, category: "electrodomestico", image: "images/00b83b9b-8aeb-4a88-8eb2-d2237465acae.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido -Android 14 -Soporte Incluido, 2 Mandos " }
              { id: 16, name: "Smart TV  HD Insignia 32", price: 250, category: "electrodomestico", image: "images/34b033b8-7c49-4a58-a1e2-589a9747bb5d.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
-             { id: 17, name: "Smart Tv Oska 32", price: 250, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
-             { id: 18, name: "Smart TV Milexus 32", price: 245, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
-             { id: 19, name: "Smart Tv Challenger 32", price: 265, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
-             { id: 20, name: "Refrigerador Premier 7 pies", price: 560, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido -Congelacion Seca" }
+             { id: 17, name: "Smart Tv Oska 32", price: 250, category: "electrodomestico", image: "images/5293878a-220c-4a74-aaeb-6c8fc9e87b7c.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" }
+             { id: 18, name: "Smart TV Milexus 32", price: 245, category: "electrodomestico", image: "images/eca8367c-a98b-42ca-97f5-9a5ec282f884.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
+             { id: 19, name: "Smart Tv Challenger 32", price: 265, category: "electrodomestico", image: "images/58c9b1c0-0bb5-460a-a62e-b244a9f2e20b.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -Soporte de pared y 2 Mandos incluidos" }
+             { id: 20, name: "Refrigerador Premier 7 pies", price: 560, category: "electrodomestico", image: "images/208371b1-b8ea-4151-9434-2506b04834d5.jpg", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido -Congelacion Seca" }
         ];
 
         let cart = [];
