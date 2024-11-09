@@ -327,33 +327,47 @@
         }
 /* Estilo para la sección de ofertas */
 .promotions {
-    background-color: var(--gray-light); /* Color de fondo */
+    background-color: var(--gray-light); /* Fondo suave */
     padding: 2rem;
     text-align: center;
-    margin-bottom: 3rem; /* Espacio debajo de la sección */
+    margin-bottom: 3rem;
+    border-radius: 1rem; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
 .promotion-card {
     background-color: var(--primary-color); /* Fondo de la tarjeta de oferta */
     color: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    max-width: 800px;
+    padding: 1.5rem; /* Reducción del padding */
+    border-radius: 0.75rem;
+    max-width: 600px; /* Reducir el tamaño máximo */
     margin: 0 auto; /* Centrar la tarjeta */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra más suave */
+}
+
+.promotion-card h3 {
+    font-size: 1.5rem; /* Tamaño del texto más pequeño */
+    margin-bottom: 1rem; /* Separación con el botón */
+}
+
+.promotion-card p {
+    font-size: 1rem; /* Tamaño del texto más pequeño */
+    margin-bottom: 1.5rem;
 }
 
 .promotion-button {
     display: inline-block;
     background-color: #ffcc00; /* Color del botón */
     color: var(--primary-color);
-    padding: 1rem 2rem;
+    padding: 0.75rem 1.5rem; /* Tamaño de padding más pequeño */
     border-radius: 0.5rem;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 1rem;
+    font-size: 1rem; /* Tamaño del texto del botón */
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s;
 }
 
 .promotion-button:hover {
-    background-color: #ff9900; /* Cambio de color al pasar el ratón */
+    background-color: #ff9900; /* Cambio de color en hover */
 }
-
