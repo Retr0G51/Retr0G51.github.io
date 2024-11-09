@@ -19,6 +19,12 @@
              { id: 18, name: "Smart TV Milexus 32", price: 245, category: "electrodomestico", image: "images/eca8367c-a98b-42ca-97f5-9a5ec282f884.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
              { id: 19, name: "Smart Tv Challenger 32", price: 265, category: "electrodomestico", image: "images/58c9b1c0-0bb5-460a-a62e-b244a9f2e20b.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -Soporte de pared y 2 Mandos incluidos" }
              { id: 20, name: "Refrigerador Premier 7 pies", price: 560, category: "electrodomestico", image: "images/208371b1-b8ea-4151-9434-2506b04834d5.jpg", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido -Congelacion Seca" }
+             { id: 21, name: "Refrigerador Saco 7 pies", price: 570, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido -Regulador de Voltaje Incluido" }
+             { id: 22, name: "Refrigerador ROYAL 8.5 pies", price: 550, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 3-6 meses -Transporte Incluido" }
+             { id: 23, name: "Refrigerador Galamz 7.6 Pies", price: 630, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" }
+             { id: 24, name: "Refrigerador Premier 8.7 pies", price: 590, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -Congelacion Seca" }
+             { id: 25, name: "Refrigerador SANKEY de 9.9 pies", price: 720, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
+             { id: 26, name: "Refrigerador Milexus 9.1 pies", price: 610, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -Congelacion Seca" }
         ];
 
         let cart = [];
