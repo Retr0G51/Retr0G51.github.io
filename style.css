@@ -325,3 +325,35 @@
             border-radius: 0.5rem;
             margin: 1rem 0;           
         }
+/* Estilo para la sección de ofertas */
+.promotions {
+    background-color: var(--gray-light); /* Color de fondo */
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 3rem; /* Espacio debajo de la sección */
+}
+
+.promotion-card {
+    background-color: var(--primary-color); /* Fondo de la tarjeta de oferta */
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 800px;
+    margin: 0 auto; /* Centrar la tarjeta */
+}
+
+.promotion-button {
+    display: inline-block;
+    background-color: #ffcc00; /* Color del botón */
+    color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.promotion-button:hover {
+    background-color: #ff9900; /* Cambio de color al pasar el ratón */
+}
+
