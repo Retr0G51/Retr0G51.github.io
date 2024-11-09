@@ -44,8 +44,18 @@
              { id: 43, name: "Nevera Xingx 7 Pies", price: 480, category: "electrodomesticos", image: "images/35f3500c-884a-4dd3-b56f-3df29d995616.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" },
              { id: 44, name: "Nevera Royal 8 Pies", price: 500, category: "electrodomesticos", image: "images/3b17a9c7-7eb9-4e82-a226-0178d5b6cfd9.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" },
              { id: 45, name: "Nevera Royal 10 pies ", price: 520, category: "electrodomesticos", image: "images/56e808df-6454-48d0-a65f-af7bb7eba369.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -280 Litros" },
-             { id: 46, name: "Nevera Royal 12.5 pies ", price: 580, category: "electrodomesticos", image: "images/c9127eaf-227d-4f35-b646-557fff72de39.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
-
+             { id: 46, name: "Nevera Royal 12.5 pies ", price: 580, category: "electrodomesticos", image: "images/c9127eaf-227d-4f35-b646-557fff72de39.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 47, name: "Nevera Royal 20 Pies", price: 1050, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" },
+             { id: 48, name: "Nevera Milexus 25 pies", price: 1500, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" },
+             { id: 49, name: "Exhibidora Dulcera", price: 1860, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 50, name: "Heladera Exhibidora Royal 16 Pies", price: 1320, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 1-6 meses -Transporte Incluido" },
+             { id: 51, name: "Heladera Horizontal Marca Milexus 9 Pies", price: 800, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido" },
+             { id: 52, name: "Exhibidora Eko 7 pies", price: 750, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" },
+             { id: 53, name: "Exhibidora Milexus 13.5 Pies", price: 850, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 54, name: "Exhibidora Milexus 20 pies", price: 1400, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 1-6 meses -Transporte Incluido" },
+             { id: 55, name: "Exhibidora Vertical XINGX 25 Pies", price: 1500, category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" },
+             { id: 56, name: "", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 57, name: "", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
         ];
 
         let cart = [];
