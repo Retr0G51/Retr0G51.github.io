@@ -32,12 +32,26 @@
              { id: 31, name: "Refrigerador EKO 11.5 Pies", price: 700, category: "electrodomesticos", image: "images/236e5836-ee05-45f6-9ebf-145b9fd80c17.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido -Con dispensador" },
              { id: 32, name: "Refrigerador Milexus 11.5 Pies", price: 780, category: "electrodomesticos", image: "images/90ad8661-79ce-4092-868e-b017b9309339.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
              { id: 33, name: "Refrigerador ROYAL 11.3 pies ", price: 770, category: "electrodomesticos", image: "images/ae0a21d9-d6d7-4bea-a05a-ae330c5dd8de.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
-             { id: 34, name: "Refrigerador ", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
-             { id: 35, name: "Refrigerador ", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
-             { id: 36, name: "Refrigerador ", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
-             { id: 37, name: "Refrigerador ", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
-             { id: 38, name: "Refrigerador ", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
-             { id: 39, name: "Refrigerador ", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 34, name: "Refrigerador Samsung 12 Pies", price: 950, category: "electrodomesticos", image: "images/39fd9289-2d4f-4aa6-be46-2bb594ff3012.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" },
+             { id: 35, name: "Refrigerador LG 12 Pies", price: 890, category: "electrodomesticos", image: "images/1a962901-1d1d-4d47-823b-ae67e4bc60e2.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 36, name: "Refrigerador Milexus 13.1 Pies", price: 770, category: "electrodomesticos", image: "images/35933099-a50c-4f82-84a7-fedfcafedc71.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 37, name: "Refrigerador Royal 17 Pies", price: 1000, category: "electrodomesticos", image: "images/df6c288f-35f4-46f8-bb79-fbfd5901107e.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 38, name: "Refrigerador Drija 18 Pies ", price: 1870, category: "electrodomesticos", image: "images/e5fedfca-a901-4d9e-bbdb-d5848eee0846.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -Color Negro(Efecto Espejo)" },
+             { id: 39, name: "Refrigerador LG 18 Pies", price: 1450, category: "electrodomesticos", image: "images/ff4a3ee6-747c-4cb2-bbc3-f92418bc048b.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 40, name: "Nevera Milexus 3.5 pies", price: 320, category: "electrodomesticos", image: "images/01ed8fc8-50d9-4f1f-ab55-4d8007ab5a56.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -100 Litros" },
+             { id: 41, name: "Nevera Shiwey 3.5 pies ", price: 310, category: "electrodomesticos", image: "images/d49abb75-b86f-47f0-b003-8002d97f1e63.jpg", description: "-Factura Impresa y Garantía -Transporte Incluido" },
+             { id: 42, name: "Nevera Milexus 4.2 pies", price: 330, category: "electrodomesticos", image: "images/55c7f31f-b437-45cf-ad1a-9d788e0abe2b.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 43, name: "Nevera frigidaire 5 pies", price: 370, category: "electrodomesticos", image: "images/d1e51a30-9a28-4183-9957-483bc043d451.jpg", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido" },
+             { id: 44, name: "Nevera Shiwey 5 Pies", price: 350, category: "electrodomesticos", image: "images/4e960e8a-b0d4-45c7-8aa0-d874aceeb578.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
+             { id: 45, name: "Nevera Xingx 7 Pies", price: 480, category: "electrodomesticos", image: "images/35f3500c-884a-4dd3-b56f-3df29d995616.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" },
+             { id: 46, name: "Nevera Royal 8 Pies", price: 500, category: "electrodomesticos", image: "images/3b17a9c7-7eb9-4e82-a226-0178d5b6cfd9.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" },
+             { id: 47, name: "Nevera Royal 10 pies ", price: 520, category: "electrodomesticos", image: "images/56e808df-6454-48d0-a65f-af7bb7eba369.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -280 Litros" }
+             { id: 48, name: "Nevera Royal 12.5 pies ", price: 580, category: "electrodomesticos", image: "images/c9127eaf-227d-4f35-b646-557fff72de39.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
+
+
+
+                     
+       
         ];
 
         let cart = [];
