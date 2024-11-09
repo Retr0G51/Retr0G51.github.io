@@ -371,3 +371,13 @@
 .promotion-button:hover {
     background-color: #ff9900; /* Cambio de color en hover */
 }
+@media (max-width: 768px) {
+    .promotion-card {
+        padding: 1rem; /* Menos padding en dispositivos pequeños */
+        max-width: 100%; /* Que ocupe todo el ancho */
+    }
+
+    .promotion-button {
+        padding: 0.5rem 1rem; /* Botón más pequeño en móviles */
+    }
+}
