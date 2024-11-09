@@ -4,7 +4,12 @@
             { id: 3, name: "Smart TV 4K HD Marca Element 65", price: 660, category: "electrodomesticos", image: "images/8b27b8d0-53d8-4483-894d-ddd4e6d72fa5.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido"" },
             { id: 4, name: "Smart TV Premier 4K 60", price: 620, category: "electrodomesticos", image: "images/681f60fa-7210-4b5b-b821-105b35e9bc7e.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" },
              { id: 5, name: "Smart TV Marca Hisense UHD 4K 58", price: 610, category: "electrodomesticos", image: "images/4e66158a-e29f-4990-8fbf-0ee112e6918d.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" },
-             { id: 6, name: "Smart TV Modelo 2021 Marca LG 55", price: 650, category: "electrodomestico", image: "", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             { id: 6, name: "Smart TV Modelo 2021 Marca LG 55", price: 650, category: "electrodomestico", image: "images/33dd8014-5c87-4f70-9219-d9c6b7591356.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             { id: 7, name: "Smart TV Milexus 55", price: 510, category: "electrodomestico", image: "images/29b338aa-dfeb-41bb-b0a5-a818b7b6cdaf.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido -Ultra HD 4K" }
+             { id: 8, name: "Smart TV Milexus 50", price: 450, category: "electrodomestico", image: "images/85634ced-c3d4-4452-95d1-bdf12ef02570.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             { id: 9, name: "Smart TV ROYAL 43 ", price: 365, category: "electrodomestico", image: "images/30db0ce4-b5ce-4035-83a2-9313efd6d511.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             { id: 10, name: "Smart TV Marca TCL FHD TCL 43", price: 370, category: "electrodomestico", image: "images/b1e00a04-fa3a-4c4b-98b6-e8f0f3c4ff52.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+
              
         ];
 
