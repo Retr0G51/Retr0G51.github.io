@@ -45,7 +45,7 @@
              { id: 44, name: "Nevera Shiwey 5 Pies", price: 350, category: "electrodomesticos", image: "images/4e960e8a-b0d4-45c7-8aa0-d874aceeb578.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
              { id: 45, name: "Nevera Xingx 7 Pies", price: 480, category: "electrodomesticos", image: "images/35f3500c-884a-4dd3-b56f-3df29d995616.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" },
              { id: 46, name: "Nevera Royal 8 Pies", price: 500, category: "electrodomesticos", image: "images/3b17a9c7-7eb9-4e82-a226-0178d5b6cfd9.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido" },
-             { id: 47, name: "Nevera Royal 10 pies ", price: 520, category: "electrodomesticos", image: "images/56e808df-6454-48d0-a65f-af7bb7eba369.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -280 Litros" }
+             { id: 47, name: "Nevera Royal 10 pies ", price: 520, category: "electrodomesticos", image: "images/56e808df-6454-48d0-a65f-af7bb7eba369.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -280 Litros" },
              { id: 48, name: "Nevera Royal 12.5 pies ", price: 580, category: "electrodomesticos", image: "images/c9127eaf-227d-4f35-b646-557fff72de39.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
 
 
