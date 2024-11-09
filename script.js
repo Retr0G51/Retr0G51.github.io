@@ -48,10 +48,6 @@
              { id: 47, name: "Nevera Royal 10 pies ", price: 520, category: "electrodomesticos", image: "images/56e808df-6454-48d0-a65f-af7bb7eba369.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido -280 Litros" },
              { id: 48, name: "Nevera Royal 12.5 pies ", price: 580, category: "electrodomesticos", image: "images/c9127eaf-227d-4f35-b646-557fff72de39.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
 
-
-
-                     
-       
         ];
 
         let cart = [];
