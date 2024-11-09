@@ -1,6 +1,6 @@
         const products = [
              { id: 1, name: "Smart TV UHD 4K Marca SANSUI 65", price: 640, category: "electrodomesticos", image: "images/IMG-20241106-WA0063.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido." }
-              id: 2, name: "Smart TV 4K Marca ONN 65", price: 650, category: "electrodomesticos", image: "images/7623d410-418d-4850-bc99-5a278b282165.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
+             { id: 2, name: "Smart TV 4K Marca ONN 65", price: 650, category: "electrodomesticos", image: "images/7623d410-418d-4850-bc99-5a278b282165.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
              { id: 4, name: "Smart TV Premier 4K 60", price: 620, category: "electrodomesticos", image: "images/681f60fa-7210-4b5b-b821-105b35e9bc7e.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
              { id: 5, name: "Smart TV Marca Hisense UHD 4K 58", price: 610, category: "electrodomesticos", image: "images/4e66158a-e29f-4990-8fbf-0ee112e6918d.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
              { id: 6, name: "Smart TV Modelo 2021 Marca LG 55", price: 650, category: "electrodomestico", image: "images/33dd8014-5c87-4f70-9219-d9c6b7591356.jpg", description: "-Factura Impresa y Garantía: 1 mes -Transporte Incluido" }
@@ -30,7 +30,7 @@
              { id: 30, name: "Refrigerador PREMIER de 10.7 pies", price: 630, category: "electrodomestico", image: "images/f83bdda6-babb-4c33-afb6-338379ef3641.jpg", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido" }
              { id: 31, name: "Refrigerador EKO 11.5 Pies", price: 700, category: "electrodomestico", image: "images/236e5836-ee05-45f6-9ebf-145b9fd80c17.jpg", description: "-Factura Impresa y Garantía: 1-3 meses -Transporte Incluido -Con dispensador" }
              { id: 32, name: "Refrigerador Milexus 11.5 Pies", price: 780, category: "electrodomestico", image: "images/90ad8661-79ce-4092-868e-b017b9309339.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
-             { id: 33, name: "Refrigerador ROYAL 11.3 pies ", price: 770, category: "electrodomestico", image: "images/ae0a21d9-d6d7-4bea-a05a-ae330c5dd8de.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" };
+             { id: 33, name: "Refrigerador ROYAL 11.3 pies ", price: 770, category: "electrodomestico", image: "images/ae0a21d9-d6d7-4bea-a05a-ae330c5dd8de.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" }
         ];
 
         let cart = [];
