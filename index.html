@@ -10,23 +10,10 @@
 </head>
 <body>
     <nav class="navbar">
-    <div class="nav-content">
-        <div class="logo" onclick="showProducts()">STORE</div>
-        <div class="filter-container">
-            <button class="filter-button" onclick="toggleFilter()">
-                Electrodomésticos
-            </button>
-            <div class="filter-dropdown" id="filter-dropdown">
-                <div class="filter-option" onclick="filterBySubcategory('neveras')">Neveras</div>
-                <div class="filter-option" onclick="filterBySubcategory('lavadoras')">Lavadoras</div>
-                <div class="filter-option" onclick="filterBySubcategory('hornos')">Hornos</div>
-                <div class="filter-option" onclick="filterBySubcategory('microondas')">Microondas</div>
-                <div class="filter-option" onclick="filterBySubcategory('lavavajillas')">Lavavajillas</div>
-                <div class="filter-option" onclick="filterBySubcategory('todos')">Ver todos</div>
-            </div>
+        <div class="nav-content">
+            <div class="logo" onclick="showProducts()">STORE</div>
+            <div class="cart-icon" onclick="showCart()">🛒 <span id="cart-count">0</span></div>
         </div>
-        <div class="cart-icon" onclick="showCart()">🛒 <span id="cart-count">0</span></div>
-    </div>
     </nav>
 
     <main class="main-content" id="products-page">
