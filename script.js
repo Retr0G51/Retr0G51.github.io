@@ -61,6 +61,9 @@
              { id: 60, name: "Lavadora Automática KONKA 8 kg", price: 400, category: "electrodomesticos", image: "images/a1ae0992-5ca8-492c-a98c-1bc6f1ad247a.jpg", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido" },
              { id: 61, name: "Lavadora Automática SANKEY 12 kg", price: 540, category: "electrodomesticos", image: "images/b230986f-5e6a-47bb-81d5-86550e8a207c.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
              { id: 62, name: "Lavadora Automática LG 13Kg.", price: 720, category: "electrodomesticos", image: "images/ce37eae7-818a-47cd-ab96-0cdb7a85df6b.jpg", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido" }
+             { id: 63, name: "", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido" }
+             { id: 64, name: "", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido" }
+             { id: 65, name: "", price: , category: "electrodomesticos", image: "", description: "-Factura Impresa y Garantía: 6 meses -Transporte Incluido" }
         ];
 
         let cart = [];
