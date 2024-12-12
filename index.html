@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://wa.me; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline';">
-<meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="description" content="Descripción de tu tienda online">
+    <meta name="theme-color" content="#000000">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://wa.me https://api.whatsapp.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <title>Mi Tienda Online</title>
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <div class="logo" onclick="showProducts()">MI TIENDA</div>
-            <div class="cart-icon" onclick="showCart()">🛒 <span id="cart-count">0</span></div>
+            <div class="logo" onclick="showProducts()" role="button" tabindex="0">MI TIENDA</div>
+            <div class="cart-icon" onclick="showCart()" role="button" aria-label="Ver carrito" tabindex="0">
+                🛒 <span id="cart-count" aria-live="polite">0</span>
+            </div>
         </div>
     </nav>
 
     <main class="main-content" id="products-page">
         <div class="search-container">
-            <input type="text" id="search-input" class="search-input" placeholder="Buscar productos...">
+            <input type="text" id="search-input" class="search-input" placeholder="Buscar productos..." aria-label="Buscar productos">
         </div>
-        <div class="categories" id="categories">
+        <div class="categories" id="categories" role="group" aria-label="Categorías de productos">
             <button class="category-btn active" data-category="todos">Todos</button>
             <button class="category-btn" data-category="tecnologia">Tecnología</button>
             <button class="category-btn" data-category="ropa">Ropa</button>
@@ -28,14 +33,14 @@
             <button class="category-btn" data-category="electrodomesticos">Electrodomésticos</button>
         </div>
 
-        <div class="products-grid" id="products-grid">
+        <div class="products-grid" id="products-grid" role="main" aria-label="Productos">
             <!-- Los productos se cargarán dinámicamente -->
         </div>
     </main>
 
-    <div id="product-modal" class="modal">
+    <div id="product-modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
         <div class="modal-content">
-            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <span class="close-modal" onclick="closeModal()" role="button" aria-label="Cerrar modal">&times;</span>
             <div id="modal-product-details">
                 <!-- Los detalles del producto se cargarán dinámicamente -->
             </div>
@@ -49,11 +54,18 @@
         </div>
         <div class="cart-summary">
             <h3>Total: $<span id="cart-total">0</span></h3>
-            <a href="#" class="whatsapp-button" id="whatsapp-button" target="_blank">
+            <a href="#" class="whatsapp-button" id="whatsapp-button" target="_blank" rel="noopener noreferrer">
                 Realizar Pedido por WhatsApp
             </a>
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Mi Tienda. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
