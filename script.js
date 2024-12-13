@@ -100,6 +100,8 @@
                 filteredProducts = filteredProducts.filter(product => product.category === category);
              if (category !== 'lavadoras') {
                 filteredProducts = filteredProducts.filter(product => product.category === category);
+              if (category !== 'refri') {
+                filteredProducts = filteredProducts.filter(product => product.category === category);
          }
             
             if (searchTerm) {
