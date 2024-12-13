@@ -88,9 +88,17 @@
                 filteredProducts = filteredProducts.filter(product => product.category === category);
             if (category !== 'exhibidoras') {
                 filteredProducts = filteredProducts.filter(product => product.category === category);
-            if (category !== 'venti') {
+            if (category !== 'ventilador') {
                 filteredProducts = filteredProducts.filter(product => product.category === category);
             if (category !== 'varios') {
+                filteredProducts = filteredProducts.filter(product => product.category === category);
+             if (category !== 'cocinas') {
+                filteredProducts = filteredProducts.filter(product => product.category === category);
+             if (category !== 'split') {
+                filteredProducts = filteredProducts.filter(product => product.category === category);
+             if (category !== 'plantas') {
+                filteredProducts = filteredProducts.filter(product => product.category === category);
+             if (category !== 'lavadoras') {
                 filteredProducts = filteredProducts.filter(product => product.category === category);
          }
             
