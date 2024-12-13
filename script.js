@@ -84,7 +84,15 @@
                 filteredProducts = filteredProducts.filter(product => product.category === category);
             if (category !== 'tv') {
                 filteredProducts = filteredProducts.filter(product => product.category === category);       
-            }
+            if (category !== 'nevera') {
+                filteredProducts = filteredProducts.filter(product => product.category === category);
+            if (category !== 'exhibidoras') {
+                filteredProducts = filteredProducts.filter(product => product.category === category);
+            if (category !== 'venti') {
+                filteredProducts = filteredProducts.filter(product => product.category === category);
+            if (category !== 'varios') {
+                filteredProducts = filteredProducts.filter(product => product.category === category);
+         }
             
             if (searchTerm) {
                 filteredProducts = filteredProducts.filter(product => 
