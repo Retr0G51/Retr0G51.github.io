@@ -82,6 +82,8 @@
             
             if (category !== 'todos') {
                 filteredProducts = filteredProducts.filter(product => product.category === category);
+            if (category !== 'tv') {
+                filteredProducts = filteredProducts.filter(product => product.category === category);       
             }
             
             if (searchTerm) {
