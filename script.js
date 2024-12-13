@@ -61,181 +61,109 @@
              { id: 61, name: "Lavadora Automática SANKEY 12 kg", price: 540, category: "lavadoras", image: "images/b230986f-5e6a-47bb-81d5-86550e8a207c.jpg", description: "-Factura Impresa y Garantía: 3 meses -Transporte Incluido" },
                   ];
 
-        let cart = [];
 
-        function showProducts() {
-            document.getElementById('products-page').style.display = 'block';
-            document.getElementById('cart-page').style.display = 'none';
-        }
+// Función para mostrar productos
+function displayProducts(category = "all", searchTerm = "") {
+    const productsContainer = document.getElementById("products");
+    productsContainer.innerHTML = "";
 
-        function showCart() {
-            document.getElementById('products-page').style.display = 'none';
-            document.getElementById('cart-page').style.display = 'block';
-            updateCartDisplay();
-        }
+    const filteredProducts = products.filter(product => {
+        const matchesCategory = category === "all" || product.category === category;
+        const matchesSearch = product.name.toLowerCase().includes(searchTerm.toLowerCase());
+        return matchesCategory && matchesSearch;
+    });
 
-        function displayProducts(category = 'todos', searchTerm = '') {
-            const productsGrid = document.getElementById('products-grid');
-            productsGrid.innerHTML = '';
+    filteredProducts.forEach(product => {
+        const productElement = document.createElement("div");
+        productElement.className = "product";
+        productElement.innerHTML = `
+            <img src="${product.image}" alt="${product.name}">
+            <h3>${product.name}</h3>
+            <p>$${product.price.toFixed(2)}</p>
+            <button onclick="addToCart(${product.id})">Agregar al carrito</button>
+        `;
+        productsContainer.appendChild(productElement);
+    });
+}
 
-            let filteredProducts = products;
-            
-            if (category !== 'todos') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);
-            if (category !== 'tv') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);       
-            if (category !== 'nevera') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);
-            if (category !== 'exhibidoras') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);
-            if (category !== 'ventilador') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);
-            if (category !== 'varios') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);
-             if (category !== 'cocinas') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);
-             if (category !== 'split') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);
-             if (category !== 'plantas') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);
-             if (category !== 'lavadoras') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);
-              if (category !== 'refri') {
-                filteredProducts = filteredProducts.filter(product => product.category === category);
-         }
-            
-            if (searchTerm) {
-                filteredProducts = filteredProducts.filter(product => 
-                    product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                    product.description.toLowerCase().includes(searchTerm.toLowerCase())
-                );
-            }
+// Función para agregar un producto al carrito
+function addToCart(productId) {
+    const product = products.find(p => p.id === productId);
+    if (product) {
+        cart.push(product);
+        updateCart();
+    }
+}
 
-            filteredProducts.forEach(product => {
-                const productElement = document.createElement('div');
-                productElement.className = 'product-card';
-                productElement.innerHTML = `
-                    <div class="product-image" onclick="showProductDetails(${product.id})">
-                        <img src="${product.image}" alt="${product.name}">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">${product.name}</h3>
-                        <p class="product-price">$${product.price}</p>
-                        <button class="add-to-cart" onclick="addToCart(${product.id})">
-                            Añadir al carrito
-                        </button>
-                    </div>
-                `;
-                productsGrid.appendChild(productElement);
-            });
-        }
+// Función para eliminar un producto del carrito
+function removeFromCart(index) {
+    cart.splice(index, 1);
+    updateCart();
+}
 
-        function showProductDetails(productId) {
-            const product = products.find(p => p.id === productId);
-            if (product) {
-                const modal = document.getElementById('product-modal');
-                const modalContent = document.getElementById('modal-product-details');
-                
-                modalContent.innerHTML = `
-                    <h2>${product.name}</h2>
-                    <img src="${product.image}" alt="${product.name}" class="product-modal-image">
-                    <p class="product-description">${product.description}</p>
-                    <p class="product-price">Precio: $${product.price}</p>
-                    <button class="add-to-cart" onclick="addToCart(${product.id}); closeModal();">
-                        Añadir al carrito
-                    </button>
-                `;
-                
-                modal.style.display = 'block';
-            }
-        }
+// Función para actualizar el carrito
+function updateCart() {
+    const cartItems = document.getElementById("cart-items");
+    const cartTotal = document.getElementById("cart-total");
+    const whatsappButton = document.getElementById("whatsapp-button");
 
-        function closeModal() {
-            document.getElementById('product-modal').style.display = 'none';
-        }
+    cartItems.innerHTML = "";
+    let total = 0;
 
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
-                closeModal();
-            }
-        });
+    cart.forEach((item, index) => {
+        total += item.price;
+        const itemElement = document.createElement("div");
+        itemElement.className = "cart-item";
+        itemElement.innerHTML = `
+            <div>
+                <img src="${item.image}" alt="${item.name}">
+                <div>
+                    <h3>${item.name}</h3>
+                    <p>$${item.price.toFixed(2)}</p>
+                </div>
+            </div>
+            <span class="remove-item" onclick="removeFromCart(${index})">🗑️</span>
+        `;
+        cartItems.appendChild(itemElement);
+    });
 
-        function addToCart(productId) {
-            const product = products.find(p => p.id === productId);
-            if (product && !cart.some(item => item.id === productId)) {
-                cart.push(product);
-                updateCartCount();
-                updateCartDisplay();
-            }
-        }
+    cartTotal.textContent = `$${total.toFixed(2)}`;
+    whatsappButton.disabled = cart.length === 0;
+    updateWhatsAppLink();
+}
 
-        function removeFromCart(index) {
-            cart.splice(index, 1);
-            updateCartCount();
-            updateCartDisplay();
-        }
+// Función para actualizar el enlace de WhatsApp
+function updateWhatsAppLink() {
+    const whatsappButton = document.getElementById("whatsapp-button");
+    let message = "¡Hola! Me gustaría hacer el siguiente pedido:\n\n";
 
-        function updateCartCount() {
-            document.getElementById('cart-count').textContent = cart.length;
-        }
+    cart.forEach(item => {
+        message += `- ${item.name} ($${item.price.toFixed(2)})\n`;
+    });
 
-        function updateCartDisplay() {
-            const cartItems = document.getElementById('cart-items');
-            const cartTotal = document.getElementById('cart-total');
-            cartItems.innerHTML = '';
+    const total = cart.reduce((sum, item) => sum + item.price, 0);
+    message += `\nTotal: $${total.toFixed(2)}`;
 
-            let total = 0;
+    const encodedMessage = encodeURIComponent(message);
+    whatsappButton.href = `https://wa.me/5355059350?text=${encodedMessage}`;
+}
 
-            cart.forEach((item, index) => {
-                total += item.price;
-                const itemElement = document.createElement('div');
-                itemElement.className = 'cart-item';
-                itemElement.innerHTML = `
-                    <div class="cart-item-info">
-                        <img src="${item.image}" alt="${item.name}">
-                        <div>
-                            <h3>${item.name}</h3>
-                            <p>$${item.price}</p>
-                        </div>
-                    </div>
-                    <span class="remove-item" onclick="removeFromCart(${index})">🗑️</span>
-                `;
-                cartItems.appendChild(itemElement);
-            });
+// Event listeners para categorías y búsqueda
+document.getElementById("categories").addEventListener("click", (e) => {
+    if (e.target.classList.contains("category-btn")) {
+        document.querySelectorAll(".category-btn").forEach(btn => btn.classList.remove("active"));
+        e.target.classList.add("active");
+        const searchTerm = document.getElementById("search-input").value;
+        displayProducts(e.target.dataset.category, searchTerm);
+    }
+});
 
-            cartTotal.textContent = total.toFixed(2);
-            updateWhatsAppLink();
-        }
+document.getElementById("search-input").addEventListener("input", (e) => {
+    const searchTerm = e.target.value;
+    const activeCategory = document.querySelector(".category-btn.active")?.dataset.category || "all";
+    displayProducts(activeCategory, searchTerm);
+});
 
-        function updateWhatsAppLink() {
-            const whatsappButton = document.getElementById('whatsapp-button');
-            let message = "¡Hola! Me gustaría hacer el siguiente pedido:\n\n";
-            
-            cart.forEach(item => {
-                message += `- ${item.name} ($${item.price})\n`;
-            });
-            
-            const total = cart.reduce((sum, item) => sum + item.price, 0);
-            message += `\nTotal: $${total.toFixed(2)}`;
-            
-            const encodedMessage = encodeURIComponent(message);
-            whatsappButton.href = `https://wa.me/5355059350?text=${encodedMessage}`;
-        }
+// Llamada inicial para mostrar productos
+displayProducts();
 
-        document.getElementById('categories').addEventListener('click', (e) => {
-            if (e.target.classList.contains('category-btn')) {
-                document.querySelectorAll('.category-btn').forEach(btn => btn.classList.remove('active'));
-                e.target.classList.add('active');
-                const searchTerm = document.getElementById('search-input').value;
-                displayProducts(e.target.dataset.category, searchTerm);
-            }
-        });
-
-        document.getElementById('search-input').addEventListener('input', (e) => {
-            const searchTerm = e.target.value;
-            const activeCategory = document.querySelector('.category-btn.active').dataset.category;
-            displayProducts(activeCategory, searchTerm);
-        });
-
-        displayProducts();
-        showProducts();
