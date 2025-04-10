@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos G</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5477390705460155"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fotos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#">Colecciones</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="hot">Hottest</button>
+            </div>
+
+            <div class="gallery" id="gallery">
+                <!-- Las fotos se cargarán aquí dinámicamente con JavaScript -->
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Cargando galería...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="caption" id="caption"></div>
+        <div class="lightbox-nav">
+            <button id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button id="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mi Galería - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
